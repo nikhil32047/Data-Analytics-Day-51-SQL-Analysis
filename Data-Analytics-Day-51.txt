@@ -1,0 +1,68 @@
+Advanced Data Analytics Lessons
+
+🔹 Lesson 1: Handling Missing Data
+==================================
+Summary:
+Missing values are common in real-world datasets.
+Drop missing values (if <5% of data)
+Impute values using mean/median/mode
+Forward/Backward fill for time-series data
+
+Example:
+In a hospital dataset, missing patient age can be replaced with the median age of patients.
+
+
+🔹 Lesson 2: Outlier Detection
+============================
+Summary:
+Outliers = values far from the rest, may skew analysis.
+Use IQR (Interquartile Range)
+Use Z-score method
+Visualize with boxplots
+
+Example:
+In salary data, one employee earning ₹50 lakhs while most earn ₹3–5 lakhs is an outlier.
+
+
+🔹 Lesson 3: Introduction to SQL for Analysts
+==========================================
+Summary:
+SQL is the core tool for querying structured data.
+SELECT – extract data
+WHERE – filter rows
+ORDER BY – sort data
+
+Example:
+Find customers who spent more than ₹5000:
+
+SELECT customer_name, total_spent
+FROM sales
+WHERE total_spent > 5000;
+
+
+🔹 Lesson 4: Joins in SQL
+========================
+Summary:
+Joins combine multiple tables for richer insights.
+INNER JOIN – only matching rows
+LEFT JOIN – all rows from left, matched from right
+RIGHT JOIN – opposite of LEFT
+FULL JOIN – all rows from both
+
+Example:
+Joining customers and orders tables to see who ordered what.
+
+
+🔹 Lesson 5: Mini Case Study – Customer Purchase Analysis
+=====================================================
+Summary:
+Using cleaning + SQL queries + visualization to analyze purchases:
+Clean missing values in customer data
+Detect outliers in purchase amounts
+Use SQL to join orders + customers
+Build a bar chart of top 10 customers by spending
+
+Example:
+A retail store found its top 10% of customers contributed 60% of revenue.
+
+
